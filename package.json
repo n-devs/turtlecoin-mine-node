@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "bash start.sh",
     "delete": "bash delete.sh",
     "setup": "bash setup.sh",
-    "miner": "bash miner.sh",
-    "server": "bash server.sh"
+    "start:linux-intel": "bash start-linux-intel.sh",
+    "miner:linux-intel": "bash miner-linux-intel.sh",
+    "server:linux-intel": "bash server-linux-intel.sh",
+    "start:linux-amd": "bash start-linux-amd.sh",
+    "miner:linux-amd": "bash miner-linux-amd.sh",
+    "server:linux-amd": "bash server-linux-amd.sh",
+    "start:linux-arm": "bash start-linux-arm.sh",
+    "miner:linux-arm": "bash miner-linux-arm.sh",
+    "server:linux-arm": "bash server-linux-arm.sh",
+    "start:osx": "bash start-osx.sh",
+    "miner:osx": "bash miner-osx.sh",
+    "server:osx": "bash server-osx.sh",
+    "start:android": "bash start-android.sh",
+    "miner:android": "bash miner-android.sh"
   },
   "repository": {
     "type": "git",
