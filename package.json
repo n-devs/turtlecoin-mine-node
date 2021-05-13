@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "bash start.sh",
-    "mine": "bash mine.sh",
+    "setup": "bash setup.sh",
+    "miner": "bash miner.sh",
     "server": "bash server.sh"
   },
   "repository": {

@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./xmrigDaemon --config=config.json
+pm2 start 'yarn server' --name server
+
+pm2 start 'yarn miner' --name miner
