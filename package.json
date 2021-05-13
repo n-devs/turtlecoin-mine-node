@@ -1,0 +1,21 @@
+{
+  "name": "turtlecoin-mine-node",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "bash start.sh",
+    "mine": "bash mine.sh",
+    "server": "bash server.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-devs/turtlecoin-mine-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-devs/turtlecoin-mine-node/issues"
+  },
+  "homepage": "https://github.com/n-devs/turtlecoin-mine-node#readme"
+}
