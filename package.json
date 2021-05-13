@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "install-ubuntu": "bash install-ubuntu.sh",
+    "open:ubuntu": "bash open-ubuntu.sh",
     "delete": "bash delete.sh",
     "setup": "bash setup.sh",
     "start:linux-intel": "bash start-linux-intel.sh",
