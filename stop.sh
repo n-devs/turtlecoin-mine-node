@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pm2 stop server
+pm2 delete server
 
-pm2 stop miner
+pm2 delete miner
