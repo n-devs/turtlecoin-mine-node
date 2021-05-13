@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./android/miner/xmrigDaemon --config=config.json
+./android/miner/xmrigDaemon --config=config_android.json
