@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pm2 start 'npm run server:linux-arm' --name server
+pm2 start 'yarn server:linux-arm' --name server
 
-pm2 start 'npm run miner:linux-arm' --name miner
+pm2 start 'yarn miner:linux-arm' --name miner

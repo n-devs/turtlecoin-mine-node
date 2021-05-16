@@ -2,4 +2,4 @@
 
 cd win/miner
 
-xmrigDaemon.exe --config=config.json
+bash start.sh

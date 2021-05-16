@@ -1,4 +1,6 @@
 #!/bin/bash
 
-./linux-arm/server/xmrigServer --config=config_server.json
+cd ./linux-arm/server
+
+bash ./start.sh
 

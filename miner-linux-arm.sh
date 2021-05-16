@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./linux-arm/miner/xmrigDaemon --config=config.json
+cd ./linux-arm/miner
+
+bash ./start.sh

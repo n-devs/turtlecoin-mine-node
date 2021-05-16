@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./osx/miner/xmrigDaemon --config=config.json
+cd ./osx/miner
+
+bash ./start.sh

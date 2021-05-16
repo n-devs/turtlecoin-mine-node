@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./linux-intel/miner/xmrigDaemon --config=config.json
+cd ./linux-intel/miner
+
+bash ./start.sh

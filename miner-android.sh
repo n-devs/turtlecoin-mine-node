@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./android/miner/xmrigDaemon --config=config_android.json
+cd ./android/miner
+
+bash ./start.sh

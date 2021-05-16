@@ -1,4 +1,6 @@
 #!/bin/bash
 
-./osx/server/xmrigServer --config=config_server.json
+cd ./osx/server
+
+bash ./start.sh
 

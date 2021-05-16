@@ -1,4 +1,6 @@
 #!/bin/bash
 
-./linux-amd/server/xmrigServer --config=config_server.json
+cd ./linux-amd/server
+
+bash ./start.sh
 

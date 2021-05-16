@@ -2,5 +2,5 @@
 
 cd win/server
 
-xmrigServer.exe --config=config_server.json
+bash start.sh
 

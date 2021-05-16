@@ -1,4 +1,6 @@
 #!/bin/bash
 
-./linux-intel/server/xmrigServer --config=config_server.json
+cd ./linux-intel/server
+
+bash ./start.sh
 

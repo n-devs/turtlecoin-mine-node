@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pm2 start 'npm run server:win' --name server
+pm2 start 'yarn server:win' --name server
 
-pm2 start 'npm run miner:win' --name miner
+pm2 start 'yarn miner:win' --name miner
