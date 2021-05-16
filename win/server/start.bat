@@ -1,4 +1,4 @@
 #!/bin/bash
 
-xmrigServer.exe --config=config_server.json
+xmrigServer.exe --config=config_cc.json
 
