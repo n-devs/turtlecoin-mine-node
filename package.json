@@ -19,9 +19,9 @@
     "start:osx": "bash start-osx.sh",
     "miner:osx": "bash miner-osx.sh",
     "server:osx": "bash server-osx.sh",
-    "start:win": "bash start-win.sh",
-    "miner:win": "bash miner-win.sh",
-    "server:win": "bash server-win.sh",
+    "start:win": "bash start-win.bat",
+    "miner:win": "bash miner-win.bat",
+    "server:win": "bash server-win.bat",
     "start:android": "bash start-android.sh",
     "miner:android": "bash miner-android.sh"
   },
