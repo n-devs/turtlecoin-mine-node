@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./win/miner/xmrigDaemon.exe --config=config.json
+cd win/miner
+
+xmrigDaemon.exe --config=config.json

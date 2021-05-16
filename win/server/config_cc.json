@@ -3,11 +3,11 @@
     "colors": true,                             // false to disable colored output
     "log-file": null,                           // log all output to a file
     "syslog": false,                            // use system log for output messages
-    "bind-ip": "0.0.0.0",                       // ip the CC Server will listens on
+    "bind-ip": "127.0.0.1",                       // ip the CC Server will listens on
     "port": 3344,                               // port the CC Server will listens on
     "user": "admin",                            // admin user for access CC Dashboard
     "pass": "pass",                             // admin pass for access CC Dashboard
-    "access-token": "mySecret",                 // access token for CC Clients (should be set!!!)
+    "access-token": null,                 // access token for CC Clients (should be set!!!)
     "use-tls" : false,                          // use tls for CC communication (needs to be enabled on miners too)
     "cert-file" : "server.pem",                 // when tls is turned on, use this to point to the right cert file
     "key-file" : "server.key",                  // when tls is turned on, use this to point to the right key file
