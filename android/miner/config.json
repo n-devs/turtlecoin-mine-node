@@ -104,8 +104,8 @@
         "use-tls": false,
         "use-remote-logging": true,
         "upload-config-on-start": true,
-        "url": "127.0.0.1:3344",
-        "access-token": "nminer",
+        "url": null,
+        "access-token": null,
         "worker-id": null,
         "reboot-cmd": null,
         "update-interval-s": 10
